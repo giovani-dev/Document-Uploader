@@ -19,7 +19,7 @@
       "name": "Python: Create adm",
       "type": "python",
       "request": "launch",
-      "program": "src/main.py",
+      "program": "src/presentation/main.py",
       "args": [
         "adm",
         "create",
