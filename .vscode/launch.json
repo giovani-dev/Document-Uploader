@@ -1,0 +1,34 @@
+{
+  // Use o IntelliSense para saber mais sobre os atributos possíveis.
+  // Focalizar para exibir as descrições dos atributos existentes.
+  // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run API",
+      "type": "python",
+      "request": "launch",
+      "program": "src/presentation/main.py",
+      "args": [
+        "api"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Create adm",
+      "type": "python",
+      "request": "launch",
+      "program": "src/main.py",
+      "args": [
+        "adm",
+        "create",
+        "15936987456x",
+        "giovani.karate@gmail.com",
+        "Giovani-Liskoski-Zanini_ADM"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
